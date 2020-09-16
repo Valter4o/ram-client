@@ -1,4 +1,4 @@
-<h1 align="center"><strong>Rick and Morty episodes</strong></h1>
+<h1 align="center"><strong>Rick and Morty episodes client</strong></h1>
 
 <br />
 
