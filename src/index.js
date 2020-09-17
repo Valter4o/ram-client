@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import '../src/styles/index.css'
-import App from '../src/components/App'
+import App from '../src/App'
 import { ApolloProvider } from 'react-apollo'
 import ApolloClient from 'apollo-boost'
 

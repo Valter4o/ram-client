@@ -4,4 +4,4 @@
 
 ![](https://imgur.com/ousyQaC.png)
 
-## Features
+Built with React ,Apollo and GraphQl
