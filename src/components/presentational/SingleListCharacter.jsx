@@ -20,11 +20,13 @@ const Name = styled.div`
   color: ${(props) => props.theme.yellow};
   width: 300px;
   height: 150px;
+  border-radius: 0px 0px 30px 30px;
 `;
 
 const CharacterImg = styled.img`
   max-width: 300px;
   max-height: 300px;
+  border-radius:30px 30px 0px 0px;
 `;
 
 const SingleListCharacter = ({ characterData: { name, image, id } }) => {
