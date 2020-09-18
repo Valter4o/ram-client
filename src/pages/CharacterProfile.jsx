@@ -47,7 +47,6 @@ const SingleCharacter = ({
 
 const CharacterProfile = (props) => {
   const characterId = props.match.params.id;
-  console.log(props);
   return (
     <div>
       <BaseGoBackBtn history={props.history}/>
