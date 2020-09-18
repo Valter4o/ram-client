@@ -40,6 +40,7 @@ const CharactersList = (props) => {
                 return (
                   <>
                     <BaseGoBackBtn history={props.history} />
+                    <h1>All characters in this episode</h1>
                     <CharactersContainer>
                       {data.charactersByIds.map((characterData) => {
                         return (

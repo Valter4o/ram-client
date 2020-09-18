@@ -17,6 +17,7 @@ const Episodes = () => {
 
         return (
           <>
+            <h1>All Rick and Morty Episodes</h1>
             <SeasonsNavigation currentPage={page} setPage={setPage} />
             <EpisodesList data={data} />
           </>

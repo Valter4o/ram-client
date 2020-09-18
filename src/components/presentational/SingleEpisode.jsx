@@ -7,22 +7,22 @@ const EpisodeContainer = styled.div`
   height: 400px;
   border: solid 3px ${(props) => props.theme.brown};
   border-radius: 30px;
-  background-color: ${(props) => props.theme.skin};
+  background-color: cyan;
   color: ${(props) => props.theme.brown};
 `;
 
 const Name = styled.h1`
   height: 100px;
-  color: ${(props) => props.theme.brown};
+  color: ${(props) => props.theme.green};
 `;
 
 const EpisodeNumber = styled.h3`
-  color: ${(props) => props.theme.yellow};
+  color: ${(props) => props.theme.brown};
 `;
 
 const ReleaseDate = styled.p`
-  color: ${(props) => props.theme.yellow};
-  margin-bottom:60px;
+  color: ${(props) => props.theme.brown};
+  margin-bottom: 60px;
 `;
 
 const SingleEpisode = ({ episodeData: { name, episode, air_date, id } }) => {
